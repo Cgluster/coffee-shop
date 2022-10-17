@@ -1,0 +1,67 @@
+/* General Section */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.main-navigation-left {
+    display: flex;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+
+.navigation-header-left {
+    margin-left: 1rem;
+}
+
+.navigation-bar-left {
+    display: flex;
+}
+
+.navigation-bar-left li {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 2rem;
+}
+
+.navigation-item-left {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.navigation-item-left a:hover {
+    color: rgb(88, 94, 163);
+}
+
+.navigation-item-left a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navigation-item-right a {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 30%;
+    padding: 8px;
+}
+
+.navigation-row {
+    display: flex;
+}
+
+.navigation-column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/* Body */
+/* Footer */
